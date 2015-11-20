@@ -1,0 +1,33 @@
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+<style type="text/css">
+    .box{
+        width: 400px;
+        margin: 0 200px;
+    }
+</style>
+<body>
+
+    <div class="box">
+        <div>asldjfalsdf</div>
+        <div>asldjfalsdf</div>
+        <div>asldjfalsdf</div>
+        <div>asldjfalsdf</div>
+        <div>asldjfalsdf</div>
+        <div>asldjfalsdf</div>
+    </div>
+
+<script src="http://cdn.bootcss.com/jquery/1.11.3/jquery.js"></script>
+<script type="text/javascript" src="loading.jquery.js"></script>
+<script type="text/javascript">
+    var loading = $.createLoading({
+        mask:'rgba(200,200,200,.9)',
+        container:'.box',
+    });
+    loading.show();
+</script>
+</body>
+</html>
